@@ -9,10 +9,15 @@ overlap-detection queries later).
 
 import os
 from dotenv import load_dotenv
-load_dotenv()
 from sqlalchemy import create_engine
 from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy.orm import sessionmaker
+
+# Loads variables from a .env file (if present) into the environment,
+# so os.getenv() below can actually see them. Without this line,
+# os.getenv() only sees REAL system environment variables and silently
+# falls back to the default value.
+load_dotenv()
 
 # Reads from environment variable so we never hardcode secrets/URLs.
 # Locally this points to your Postgres instance; in production
