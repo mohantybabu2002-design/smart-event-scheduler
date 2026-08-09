@@ -74,3 +74,8 @@ class Participant(Base):
     event = relationship("Event", back_populates="participants")
     user = relationship("User")
 
+    @property
+    def name(self):
+        """Lets the API return the participant's name without a separate lookup."""
+        return self.user.name if self.user else None
+
