@@ -4,7 +4,7 @@
 multiple people's calendars at once, merges their busy time, and returns the
 gaps where a meeting actually fits — without anyone double-booking themselves.
 
-**Live demo:** https://mohantybabu2002-design.github.io/smart-event-scheduler/
+**Live demo:** https://mohantybabu2002-design.github.io/TimeGrid/
 
 **API docs:** https://smart-event-scheduler.onrender.com/docs
 
