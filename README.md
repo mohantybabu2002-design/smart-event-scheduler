@@ -23,6 +23,7 @@ gaps where a meeting actually fits — without anyone double-booking themselves.
   IDs and a time window, and it returns every gap long enough for a meeting,
   visualized as a timeline
   | Login Page |
+  |---|
   | ![Login Page](Screenshots/Log-in%20Page.png) |
   
 ## Screenshots
@@ -37,7 +38,7 @@ gaps where a meeting actually fits — without anyone double-booking themselves.
 
 | Landing page | Shared free-time finder |
 |---|---|
-| ![TimeGrid Landing Page](Screenshots/Schedule%A%Meeting.png) | ![Find Shared Free Time](Screenshots/Free%20Time%20Slot.png) |
+| ![TimeGrid Landing Page](Screenshots/Schedule%20A%20Meeting.png) | ![Find Shared Free Time](Screenshots/Free%20Time%20Slot.png) |
 
 ---
 
