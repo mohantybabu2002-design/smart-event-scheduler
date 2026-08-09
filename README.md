@@ -5,6 +5,7 @@ multiple people's calendars at once, merges their busy time, and returns the
 gaps where a meeting actually fits — without anyone double-booking themselves.
 
 **Live demo:** https://mohantybabu2002-design.github.io/smart-event-scheduler/
+
 **API docs:** https://smart-event-scheduler.onrender.com/docs
 
 > Built by [Ayush Mohanty](https://github.com/mohantybabu2002-design) as a
@@ -12,7 +13,18 @@ gaps where a meeting actually fits — without anyone double-booking themselves.
 > and interval-based algorithms.
 
 ---
+## What it does
 
+- **Sign up / log in** with secure, hashed passwords and JWT-based auth
+- **Create events** and invite other users — the system checks everyone's
+  schedule and rejects the request with a clear conflict if anyone's already
+  busy
+- **Find shared free time** across a group of people: give it a list of user
+  IDs and a time window, and it returns every gap long enough for a meeting,
+  visualized as a timeline
+  | Login Page |
+  | ![Login Page](Screenshots/Log-in%20Page.png) |
+  
 ## Screenshots
 
 <!--
@@ -25,19 +37,11 @@ gaps where a meeting actually fits — without anyone double-booking themselves.
 
 | Landing page | Shared free-time finder |
 |---|---|
-| ![TimeGrid landing page](Screenshots/Log-in%20Page.png) | ![Find shared free time](Screenshots/Free%20Time%20Slot.png) |
+| ![TimeGrid Landing Page](Screenshots/Schedule%A%Meeting.png) | ![Find Shared Free Time](Screenshots/Free%20Time%20Slot.png) |
 
 ---
 
-## What it does
 
-- **Sign up / log in** with secure, hashed passwords and JWT-based auth
-- **Create events** and invite other users — the system checks everyone's
-  schedule and rejects the request with a clear conflict if anyone's already
-  busy
-- **Find shared free time** across a group of people: give it a list of user
-  IDs and a time window, and it returns every gap long enough for a meeting,
-  visualized as a timeline
 
 ## Why this project
 
