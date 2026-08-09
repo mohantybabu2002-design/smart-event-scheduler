@@ -58,6 +58,7 @@ class EventCreate(BaseModel):
 
 class ParticipantOut(BaseModel):
     user_id: int
+    name: str
     response_status: ResponseStatus
 
     class Config:
