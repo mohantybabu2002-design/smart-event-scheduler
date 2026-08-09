@@ -25,7 +25,7 @@ gaps where a meeting actually fits — without anyone double-booking themselves.
 
 | Landing page | Shared free-time finder |
 |---|---|
-| ![TimeGrid landing page](Screenshots/Log-in Page.png) | ![Find shared free time](Screenshots/Free Time Slot.png) |
+| ![TimeGrid landing page](Screenshots/Log-in%20Page.png) | ![Find shared free time](Screenshots/Free%20Time%20Slot.png) |
 
 ---
 
